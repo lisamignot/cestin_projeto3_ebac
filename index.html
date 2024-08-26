@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cestin</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 fs-1 fw-bold">Cestin</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold fs-5">
+                        <a href="#sobre" class="nav-link mt-4 mt-md-0">
+                            <i class="bi bi-emoji-smile me-1"></i>
+                            Sobre o produto</a>
+                    </li>
+                    <li class="nav-item fw-bold fs-5">
+                        <a href="#assinaturas" class="nav-link">
+                            <i class="bi bi-basket me-1"></i>
+                            Assinaturas</a>
+                    </li>
+                    <li class="nav-item fw-bold fs-5">
+                        <a href="#feirinha" class="nav-link">
+                            <i class="bi bi-cart-plus me-1"></i>
+                            Feirinha</a>
+                    </li>
+                    <li class="nav-item fw-bold fs-5">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-right-text me-1"></i>
+                            Fale conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <div id="carousel-principal" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img class="d-block w-100" src="imagem/carousel/1.jpg" alt="uma mão segurando alguns rabanetes recém colhidos">
+                    <div class="carousel-caption">
+                        <p>Alimentos de alta qualidade</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="d-block w-100" src="imagem/carousel/2.jpg" alt="plantação de verduras com homem desfocado ao fundo">
+                    <div class="carousel-caption">
+                        <p>Agricultura familiar</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img class="d-block w-100" src="imagem/carousel/3.jpg" alt="mesa com vários potes contendo frutas e verduras variadas">
+                    <div class="carousel-caption">
+                        <p>Da horta direto para o seu prato</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" class="active" data-bs-target="#carousel-principal" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-principal" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-principal" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <section id="sobre">            
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="col-md-8 pb-5 text-center">
+                        <h2 class="fw-bold">
+                            Sobre <span class="text-colored">nós:</span>
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa error nulla non minus quo excepturi obcaecati nam vero eius provident corrupti doloribus optio. </p>
+                        <h2 class="fw-bold">
+                            Sobre os <span class="text-colored">nossos produtos:</span>
+                        </h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores impedit numquam ipsa sed atque ab laboriosam aut! Nulla molestias eaque adipisci facere vel.</p>
+                    </div>
+                    <div class="col-md-4 pb-5">
+                        <img class="d-block w-100" src="imagem/ilustração.png" alt="desenhos relacionados à agricultura">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="assinaturas">
+            <div class="container py-5">
+                <div class="row">
+                    <h2 class="text-center pb-3 fw-bold">
+                        Nossas <span class="text-colored">assinaturas:</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded" src="imagem/cards/cesta.jpg" alt="">
+                        <h3 class="text-uppercase text-center fs-6 py-2 mt-1 rounded">Cesta <span class="text-decoration-underline fs-4">Semanal</span></h3>
+                        <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam beatae illo ducimus eligendi maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                        <div class="d-flex justify-content-center pb-4"><button type="button" class="btn btn-secondary w-50">Assinar</button></div>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded" src="imagem/cards/cesta.jpg" alt="">
+                        <h3 class="text-uppercase text-center fs-6 py-2 mt-1 rounded">Cesta <span class="text-decoration-underline fs-4">Quinzenal</span></h3>
+                        <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam beatae illo ducimus eligendi maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <div class="d-flex justify-content-center pb-4"><button type="button" class="btn btn-secondary w-50">Assinar</button></div>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="d-block w-100 rounded" src="imagem/cards/cesta.jpg" alt="">
+                        <h3 class="text-uppercase text-center fs-6 py-2 mt-1 rounded">Cesta <span class="text-decoration-underline fs-4">Mensal</span></h3>
+                        <p class="p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam beatae illo ducimus eligendi maiores. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        <div class="d-flex justify-content-center pb-4"><button type="button" class="btn btn-secondary w-50">Assinar</button></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="feirinha">
+            <div class="container py-5 px-2">
+                <div class="row">
+                    <h2 class="text-center pb-3 fw-bold">
+                        Nossa <span class="text-colored">feirinha</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-3 d-flex flex-column justify-content-center pb-3">
+                        <nav class="nav nav-pills flex-column nav-feirinha">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#legumes" class="nav-link text-colored active">LEGUMES</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#verduras" class="nav-link text-colored">VERDURAS</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#frutas" class="nav-link text-colored">FRUTAS</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#outros" class="nav-link text-colored">OUTROS</button>
+                        </nav>
+                    </aside>
+                    <div id="itens-feirinha" class="col-md-9">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="legumes">
+                                <div class="row">
+                                    <div class="col-md-3 d-flex flex-column align-items-center">
+                                        <img class="d-block w-100" src="imagem/itens/legumes/abobora.jpg" alt="seis abóboras">
+                                        <h5 class="fs-6 text-center py-2 m-0 fw-bold">Abóbora</h5>
+                                        <button type="button" class="btn btn-light mb-4">Adicionar</button>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column align-items-center">
+                                        <img class="d-block w-100" src="imagem/itens/legumes/batata.jpg" alt="batatas">
+                                        <h5 class="fs-6 text-center py-2 m-0 fw-bold">Batata</h5>
+                                        <button type="button" class="btn btn-light mb-4">Adicionar</button>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column align-items-center">
+                                        <img class="d-block w-100" src="imagem/itens/legumes/cebola.jpg" alt="cebolas roxas">
+                                        <h5 class="fs-6 text-center py-2 m-0 fw-bold">Cebola Roxa</h5>
+                                        <button type="button" class="btn btn-light mb-4">Adicionar</button>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column align-items-center">
+                                        <img class="d-block w-100" src="imagem/itens/legumes/cenoura.jpg" alt="cenouras">
+                                        <h5 class="fs-6 text-center py-2 m-0 fw-bold">Cenoura</h5>
+                                        <button type="button" class="btn btn-light mb-4">Adicionar</button>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column align-items-center">
+                                        <img class="d-block w-100" src="imagem/itens/legumes/pimentao.jpg" alt="pimentões">
+                                        <h5 class="fs-6 text-center py-2 m-0 fw-bold">Pimentão</h5>
+                                        <button type="button" class="btn btn-light mb-4">Adicionar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="verduras">
+                                <div class="row">
+                                    <div class="col-md-3 d-flex flex-column align-items-center">
+                                        <img class="d-block w-100" src="imagem/itens/verduras/alface.jpg" alt="alface">
+                                        <h5 class="fs-6 text-center py-2 m-0 fw-bold">Alface</h5>
+                                        <button type="button" class="btn btn-light mb-4">Adicionar</button>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column align-items-center">
+                                        <img class="d-block w-100" src="imagem/itens/verduras/alho-poro.jpg" alt="alho-poró">
+                                        <h5 class="fs-6 text-center py-2 m-0 fw-bold">Alho-poró</h5>
+                                        <button type="button" class="btn btn-light mb-4">Adicionar</button>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column align-items-center">
+                                        <img class="d-block w-100" src="imagem/itens/verduras/couveflor.jpg" alt="couve-flor">
+                                        <h5 class="fs-6 text-center py-2 m-0 fw-bold">Couve-flor</h5>
+                                        <button type="button" class="btn btn-light mb-4">Adicionar</button>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column align-items-center">
+                                        <img class="d-block w-100" src="imagem/itens/verduras/salsinha.jpg" alt="salsinha">
+                                        <h5 class="fs-6 text-center py-2 m-0 fw-bold">Salsinha</h5>
+                                        <button type="button" class="btn btn-light mb-4">Adicionar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="frutas">
+                                <div class="row">
+                                    <div class="col-md-3 d-flex flex-column align-items-center">
+                                        <img class="d-block w-100" src="imagem/itens/frutas/abacate.jpg" alt="abacate">
+                                        <h5 class="fs-6 text-center py-2 m-0 fw-bold">Abacate</h5>
+                                        <button type="button" class="btn btn-light mb-4">Adicionar</button>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column align-items-center">
+                                        <img class="d-block w-100" src="imagem/itens/frutas/abacaxi.jpg" alt="abacaxi">
+                                        <h5 class="fs-6 text-center py-2 m-0 fw-bold">Abacaxi</h5>
+                                        <button type="button" class="btn btn-light mb-4">Adicionar</button>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column align-items-center">
+                                        <img class="d-block w-100" src="imagem/itens/frutas/banana.jpg" alt="bananas">
+                                        <h5 class="fs-6 text-center py-2 m-0 fw-bold">Banana</h5>
+                                        <button type="button" class="btn btn-light mb-4">Adicionar</button>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column align-items-center">
+                                        <img class="d-block w-100" src="imagem/itens/frutas/maca.jpg" alt="maçãs">
+                                        <h5 class="fs-6 text-center py-2 m-0 fw-bold">Maça</h5>
+                                        <button type="button" class="btn btn-light mb-4">Adicionar</button>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column align-items-center">
+                                        <img class="d-block w-100" src="imagem/itens/frutas/limao.jpg" alt="limões">
+                                        <h5 class="fs-6 text-center py-2 m-0 fw-bold">Limão</h5>
+                                        <button type="button" class="btn btn-light mb-4">Adicionar</button>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column align-items-center">
+                                        <img class="d-block w-100" src="imagem/itens/frutas/morango.jpg" alt="morangos">
+                                        <h5 class="fs-6 text-center py-2 m-0 fw-bold">Morango</h5>
+                                        <button type="button" class="btn btn-light mb-4">Adicionar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="outros">
+                                <div class="row">
+                                    <div class="col-md-3 d-flex flex-column align-items-center">
+                                        <img class="d-block w-100" src="imagem/itens/outros/conservas.jpg" alt="conservas">
+                                        <h5 class="fs-6 text-center py-2 m-0 fw-bold">Conservas</h5>
+                                        <button type="button" class="btn btn-light mb-4">Adicionar</button>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column align-items-center">
+                                        <img class="d-block w-100" src="imagem/itens/outros/geleia.jpg" alt="geléias">
+                                        <h5 class="fs-6 text-center py-2 m-0 fw-bold">Geléias</h5>
+                                        <button type="button" class="btn btn-light mb-4">Adicionar</button>
+                                    </div>
+                                    <div class="col-md-3 d-flex flex-column align-items-center">
+                                        <img class="d-block w-100" src="imagem/itens/outros/ovos.jpg" alt="ovos">
+                                        <h5 class="fs-6 text-center py-2 m-0 fw-bold">Ovos</h5>
+                                        <button type="button" class="btn btn-light mb-4">Adicionar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <div class="container pt-5">
+                <div class="row">
+                    <h2 class="section-title text-center pb-3 fw-bold">
+                        Fale <span class="text-colored">Conosco</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-8 p-3">
+                        <div>
+                            <h4 class="text-colored py-4">
+                                <i class="bi bi-chat-dots"></i>
+                                Envie sua mensagem</h4>
+                        </div>
+                        <form id="form">
+                            <div class="mb-3">
+                                <label for="nome" class="form-label">Seu nome:</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label">Seu telefone:</label>
+                                <input type="tel" id="telefone" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label"> Seu email:</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label">Escreva a sua mensagem:</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <div class="form-check form-switch pb-3">
+                                <label class="form-check-label" for="aceito-termos">Desejo receber comunicações sobre promoções e novidades.</label>
+                                <input class="form-check-input" type="checkbox" id="aceito-termos">
+                            </div>
+                            <button type="submit" class="btn btn-secondary">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-4 p-3">
+                        <div class="row">
+                            <h4 class="text-colored text-center py-4">
+                                <i class="bi bi-chat-right-heart"></i>
+                                Nos siga nas redes sociais</h4>
+                            <ul class="social-links d-flex justify-content-center">
+                                <li>
+                                    <a href="https://www.whatsapp.com/" target="_blank" class="text-secondary">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/" target="_blank" class="text-secondary ps-4">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/" target="_blank" class="text-secondary ps-4">
+                                        <i class="bi bi-youtube"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h4 class="text-colored text-center pt-5 pb-4">
+                                <i class="bi bi-shop"></i>
+                                Pontos de retirada</h4>
+                                <ul class="enderecos text-center">
+                                    <li>
+                                        <p class="pb-3">
+                                            Rua dos Cestinhos, 123, Niterói - RJ
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="pb-3">
+                                            Rua Hortaliças, 23, São Gonçalo - Rj
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            Rua do Pomar, 60, Rio de Janeiro - RJ
+                                        </p>
+                                    </li>
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <p class="m-0 mt-5 text-end">
+                    &copy; 2024 Lisa Mignot - Curso Desenvolvedor Full Stack Python Ebac
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+
+    <script>
+        $(document).ready(function (){
+            $('#telefone').mask('(00) 00000-0000')
+})
+    </script>
+
+</body>
+</html>

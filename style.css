@@ -1,0 +1,113 @@
+body {
+    font-family: "Roboto", sans-serif;
+    max-width: 1366px;
+    margin: auto;
+}
+
+.navbar {
+    background-color: #317302;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #FED734;
+    color: white;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+    color: white;
+    font-family: "Amatic SC", sans-serif;
+}
+
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.705);
+}
+
+h2, 
+h3,
+h4 {
+    font-family: "Amatic SC", sans-serif;
+}
+
+.text-colored {
+    color: #9D200E;
+    font-weight: 800;
+}
+
+h3 {
+    background-color: #9D200E;
+    color: #FFF8DC;
+}
+
+#sobre {
+    background-color: hsla(8, 84%, 34%, 0.098);
+}
+
+#assinaturas {
+    background-color: hsl(48, 99%, 60%, 0.098);
+}
+
+#feirinha {
+    background-color: hsla(95, 97%, 23%, 0.150);
+}
+
+.nav-feirinha .nav-link.active {
+    background-color: #9D200E;
+}
+
+.nav-feirinha .nav-link.active:hover {
+    color: white;
+}
+
+.nav-feirinha .nav-link:hover {
+    color: #9D200E;
+}
+
+.tab-content img {
+    height: 90%;
+}
+
+.botao-carrinho {
+    font-size: 0.7em;
+    width: 80%;
+    border: none;
+    margin-bottom: 12px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.311);
+    background-color: #FFF8DC;
+}
+
+.botao-feira:hover {
+    border: 2px solid #9D200E;
+}
+
+form,
+.enderecos li {
+    font-size: 0.8em;
+}
+
+.social-links li,
+.enderecos li {
+    list-style: none;
+}
+
+.tab-content button {
+    font-size: 0.7em;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.311);
+}
+
+.tab-content button:hover {
+    background-color:  #9d210e64;
+    color: white;
+}
+
+#mensagem {
+    resize: none;
+    height: 100px;
+}
+
+footer {
+    background-color: #67AE4F;
+    font-size: 0.7em;   
+}
+
